@@ -1,5 +1,4 @@
 
-
 #-------------------------------------------------------
 # Bug Title: Payment Method Bypass 2.0 - XboxLive Gold, Xbox Gamepass Ultimate, Xbox Gamepass PC and Xbox Gamepass Console Subscription
 # Date: Tue Jun 16 2020
