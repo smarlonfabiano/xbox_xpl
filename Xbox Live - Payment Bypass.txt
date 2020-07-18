@@ -1,8 +1,4 @@
 
-
-
-
-
 #-------------------------------------------------------
 # Bug Title: Payment Method Bypass - XboxLive Games
 # Date: Sat Sep 21 2019
@@ -96,5 +92,4 @@ Note: With Xbox Live updates, changes can occur and more or less months may be a
 Tue Jun 16 2020 - Report sent to MSRC
 Thu Jul 16 2020 - Microsoft reported that it does not recognize this bug as a security breach. However, it is still exploitable.
 Fri Jul 17 2020 - Microsoft did not fix the bug and the Xbox DevMode remains vulnerable
-
 
