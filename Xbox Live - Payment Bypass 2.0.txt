@@ -1,0 +1,49 @@
+
+
+#-------------------------------------------------------
+# Bug Title: Payment Method Bypass 2.0 - XboxLive Gold, Xbox Gamepass Ultimate, Xbox Gamepass PC and Xbox Gamepass Console Subscription
+# Date: Tue Jun 16 2020
+# Bug Author:
+# Marlon Fabiano (astrounder)
+# Vendor Homepage: https://www.xbox.com/pt-BR/
+# Version of Operational System: 10.0.19041.3068 (rs_xbox_release_2006.200610-0000)
+# Tested on: Xbox One Fat, Xbox One Slim, Xbox One S and Xbox One X
+# 
+#           [ astrounder ]
+#--------------------------------------------------------
+
+
+Through the Development Modes it is possible to subscribe to xbox services such as: XboxLive, Xbox Gamepass, Xbox Ultimate, Xbox Gamepass PC, etc. Bypassing any type of billing that would be carried out. In this way it is possible to subscribe to services as if you were in Retail mode, using a console in DevMode. The profile receives the service subscriber tag and still receives the subscription invoice.
+
+Sandbox:
+RETAIL (Retail ID)
+XDKS.1 (Dev ID)
+MSFT.XDK (Dev ID)
+MSFT.1 (Dev ID)
+MSFT.PRERELEASE (Dev ID)
+MSFT.Dogfood (Dev ID)
+MSFT.99 (Dev ID)
+MSFT.88 (Dev ID)
+RKTR.99 (Dev ID)
+
+
+POC:
+
+Reproducing the bug:
+
+1 - You can change you Xbox to DevMode (without buying the developer license) by going to Settings> System> Console Information and pressing the buttons on the Control LB + RB + LT + RT and a new developer settings option will appers. In this option you can also change the Sandbox ID.
+
+2 - Try to subscribe to XboxLive services through your chosen sandbox
+XDKS.1 (Dev ID) - In this Sandbox, is possible subscribe to 12 months of Xbox Live and 3 months of Ultimate gamepass. 
+MSFT.XDK (Dev ID) - Currently it is possible to subscribe to this SandBox 3 months of Xbox Live
+
+Note: With Xbox Live updates, changes can occur and more or less months may be available for subscription.
+
+
+[CHANGELOG]
+
+Tue Jun 16 2020 - Report sent to MSRC
+Thu Jul 16 2020 - Microsoft reported that it does not recognize this bug as a security breach. However, it is still exploitable.
+Fri Jul 17 2020 - Microsoft did not fix the bug and the Xbox DevMode remains vulnerable
+
+
