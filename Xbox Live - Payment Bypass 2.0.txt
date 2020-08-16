@@ -43,6 +43,7 @@ Note: With Xbox Live updates, changes can occur and more or less months may be a
 
 Tue Jun 16 2020 - Report sent to MSRC
 Thu Jul 16 2020 - Microsoft reported that it does not recognize this bug as a security breach. However, it is still exploitable.
-Fri Jul 17 2020 - Microsoft did not fix the bug and the Xbox DevMode remains vulnerable
+Fri Jul 17 2020 - Microsoft did not fix the bug and the Xbox DevMode remains vulnerable.
+Fri Aug 14 2020 - Possibly there was a correction of the vulnerability, because it is no longer possible to reproduce it.
 
 
