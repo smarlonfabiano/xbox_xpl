@@ -42,5 +42,5 @@ Sat Sep 21 2019 - Report sent to MSRC
 Thu Oct 17 2019 - MSRC accepted the bug
 Thu Dec 12 2019 - Microsoft fixed the Bug 
 Fri nov 01 2019 - Microsoft invited me to a private Xbox bounty Program
-Thu jan 30 2019 - Microsoft Xbox Bounty Program Has Launched Publicly
+Thu jan 30 2020 - Microsoft Xbox Bounty Program Has Launched Publicly
 
